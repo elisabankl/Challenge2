@@ -26,7 +26,7 @@ sr = 44100
 
 device_id = 0
 batch_size = 32
-num_workers = 6#16
+num_workers = 2#6
 persistent_workers = True
 epochs = 200
 patience = 20
