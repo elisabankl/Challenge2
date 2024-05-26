@@ -104,8 +104,8 @@ class ESC50(data.Dataset):
                 # lambda non-pickleable, problem on windows, replace with partial function
                 torch.Tensor,
                 partial(torch.unsqueeze, dim=0),
-                transforms.FrequencyMask(max_width=12,numbers = 2),
-                transforms.TimeMask(max_width=10,numbers = 2)
+                transforms.FrequencyMask(max_width=10,numbers = 1),
+                transforms.TimeMask(max_width=10,numbers = 1)
             )
 
         else:
