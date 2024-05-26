@@ -32,6 +32,6 @@ epochs = 200
 patience = 20
 lr = 2e-3 #1e-3
 weight_decay = 2e-3 #1e-3
-warm_epochs = 15
+warm_epochs = 10
 gamma = 0.95
 step_size = 5
