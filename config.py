@@ -31,7 +31,6 @@ persistent_workers = True
 epochs = 200
 patience = 20
 lr =  10e-3 #1e-3
-weight_decay = 2.5e-3 #1e-3
 #warm_epochs = 10
 gamma = 0.95
 step_size = 5
