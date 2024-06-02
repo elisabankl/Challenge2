@@ -7,7 +7,7 @@ disable_bat_pbar = False#True
 # do not change this block
 n_classes = 50
 folds = 5
-test_folds = [1] #, 2, 3, 4, 5]
+test_folds = [1, 2, 3, 4, 5]
 # ratio to split off from training data
 val_size = .2  # could be changed
 
@@ -30,8 +30,8 @@ num_workers = 6#16
 persistent_workers = True
 epochs = 200
 patience = 20
-lr = 5e-3 #1e-3
+lr =  10e-3 #1e-3
 weight_decay = 2.5e-3 #1e-3
 #warm_epochs = 10
-gamma = 0.9
+gamma = 0.95
 step_size = 5
